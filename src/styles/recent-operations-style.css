@@ -1,0 +1,82 @@
+/* Недавние операции */
+
+#operations {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#recent-operations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  
+  height: 100%;
+  border-radius: 25px;
+  padding: 24px;
+
+  background-color: #fff;
+  color: #718ebf;
+}
+
+.operation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.operation-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 18px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.icon-deposit {
+  background: #dcfaf8;
+}
+
+.icon-transfer {
+  background: #fff5d9;
+}
+
+.operation-text {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.operation-type {
+  font-weight: 500;
+  color: #232323;
+}
+
+.operation-date {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.amount {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.amount-income {
+  color: #41d4a8;
+}
+
+.amount-outcome {
+  color: #ff4b4a;
+}

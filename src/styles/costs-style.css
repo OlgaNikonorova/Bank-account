@@ -1,0 +1,46 @@
+/* Статистика расходов */
+
+#costs {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+#cost-diagram {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  
+  padding: 28px;
+  height: 100%;
+  border-radius: 25px;
+  font-size: 12px;
+
+  background-color: #fff;
+  color: #718ebf;
+}
+
+#cost-diagram .bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 26px;
+}
+
+#cost-diagram .bar > div {
+  width: 37px;
+  border-radius: 10px;
+}
+
+#cost-diagram .bar-gray {
+  height: 71px;
+  background-color: #edf0f7;
+}
+
+#cost-diagram .bar-green {
+  height: 190px;
+  background-color: #16dbcc;
+}
